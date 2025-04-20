@@ -18,8 +18,10 @@ func main() {
 	if err := db.AutoMigrate(&models.User{}); err != nil {
 		log.Fatal(err)
 	}
+
 	router := gin.Default()
 	routes.SetupRoutes(router, db)
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
