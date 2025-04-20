@@ -1,0 +1,32 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build outputs
+bin/
+build/
+
+# Test binaries and coverage
+*.test
+*.out
+coverage.*
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# macOS and Windows
+.DS_Store
+Thumbs.db
+
+# Configuration and local data
+.env
+myapp.db
+
+# Vendor dependencies
+vendor/
