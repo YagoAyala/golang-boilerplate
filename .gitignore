@@ -24,9 +24,8 @@ coverage.*
 .DS_Store
 Thumbs.db
 
-# Configuration and local data
+# Environment/config
 .env
-myapp.db
 
-# Vendor dependencies
+# Vendor
 vendor/
